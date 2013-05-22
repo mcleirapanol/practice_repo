@@ -1,0 +1,38 @@
+~ git clone https://github.com/mcleirapanol/practice_repo.git
+~ git branch
+	=> *master
+~ git branch modules
+	=> created a branch name "modules" under master 
+		master
+		  |
+		modules  
+~ git checkout modules
+	=> 	master
+	    *modules
+~ git branch <moduleName>
+		master
+		  |
+		modules
+		  |
+		moduleName
+~ git checkout moduleName
+	=>	master
+		*moduleName
+		modules	
+~ git add fileName/folderName
+	=>	adds file/folder to push
+~ git status
+	=>	checks status of files to be pushed/to be committed
+~ git commit -m "<Your Message Here>"
+~ git checkout modules
+	=> 	master
+		moduleName
+		*modules	
+
+	
+~ git merge moduleName
+	=>	merge changes in moduleName to modules
+~ git remote add origin https://github.com/mcleirapanol/practice_repo.git
+~ git push origin master 
+		
+
